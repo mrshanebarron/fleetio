@@ -51,7 +51,7 @@ class WorkOrder extends Model
         return $this->belongsTo(Asset::class);
     }
 
-    public function assignedUser(): BelongsTo
+    public function assignee(): BelongsTo
     {
         return $this->belongsTo(User::class, 'assigned_to');
     }
