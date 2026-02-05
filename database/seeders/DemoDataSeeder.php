@@ -34,7 +34,7 @@ class DemoDataSeeder extends Seeder
         $sarah = User::create([
             'name' => 'Sarah Chen',
             'email' => 'sarah@apexfleet.com',
-            'password' => Hash::make('password'),
+            'password' => Hash::make('Apex!Admin2026#'),
         ]);
         $sarah->companies()->attach($company);
         $sarah->assignRole('admin');
@@ -42,7 +42,7 @@ class DemoDataSeeder extends Seeder
         $mike = User::create([
             'name' => 'Mike Rodriguez',
             'email' => 'mike@apexfleet.com',
-            'password' => Hash::make('password'),
+            'password' => Hash::make('Apex!Mgr2026#'),
         ]);
         $mike->companies()->attach($company);
         $mike->assignRole('manager');
@@ -50,7 +50,7 @@ class DemoDataSeeder extends Seeder
         $jake = User::create([
             'name' => 'Jake Thompson',
             'email' => 'jake@apexfleet.com',
-            'password' => Hash::make('password'),
+            'password' => Hash::make('Apex!Tech2026#'),
         ]);
         $jake->companies()->attach($company);
         $jake->assignRole('technician');
@@ -58,7 +58,7 @@ class DemoDataSeeder extends Seeder
         $emily = User::create([
             'name' => 'Emily Davis',
             'email' => 'emily@apexfleet.com',
-            'password' => Hash::make('password'),
+            'password' => Hash::make('Apex!Drive2026#'),
         ]);
         $emily->companies()->attach($company);
         $emily->assignRole('driver');
